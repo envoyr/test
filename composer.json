@@ -1,0 +1,22 @@
+{
+    "name": "envoyr/test",
+    "version": "0.0.1",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Envoyr\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "envoyr",
+            "email": "hello@envoyr.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "bin": [
+        "bin/generate.php"
+    ]
+}
